@@ -1,8 +1,12 @@
 # d3-visualization
-[histograma](https://danielohata.github.io/d3-visualization/histogram/)
+[tarefa 2 - histograma](https://danielohata.github.io/d3-visualization/histogram/)
 
-[boxplot](https://danielohata.github.io/d3-visualization/boxplot/) 
+[tarefa 3 - barras empilhadas](https://danielohata.github.io/d3-visualization/dispersao/)
 
-[dispersão](https://danielohata.github.io/d3-visualization/dispersao/)
+[tarefa 4 - boxplot](https://danielohata.github.io/d3-visualization/boxplot/) 
 
-[nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
+[tarefa 5 - dispersão](https://danielohata.github.io/d3-visualization/dispersao/)
+
+
+
+[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
