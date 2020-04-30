@@ -2,19 +2,16 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 
-<title>Modelo de Dispersão</title>
-<body>
-<h2>Uso da base de dados iris com dispersão<h2>
+
 <script src="https://d3js.org/d3.v4.js"></script>
 
 
 <div id="my_dataviz"></div>
 
-
 <script>
 
 
-var margin = {top: 10, right: 30, bottom: 20, left: 50},
+var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 460 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
@@ -30,53 +27,37 @@ var svg = d3.select("#my_dataviz")
 
 d3.csv("iris.csv", function(data) {
 
-  // lista de subgrupos
-  var subgroups = data.columns.slice(1)
-
-  // lista de grupos mostrados no eixo x
-  var groups = d3.map(data, function(d){return(d.group)}).keys()
-
-  // eixo x
-  var x = d3.scaleBand()
-      .domain(groups)
-      .range([0, width])
-      .padding([0.2])
+  // adicao eixo x
+  var x = d3.scaleLinear()
+    .domain([4, 8])
+    .range([ 0, width ]);
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).tickSizeOuter(0));
+    .call(d3.axisBottom(x));
 
-  // eixo y
+  // adicao eixo y
   var y = d3.scaleLinear()
-    .domain([0, 100000])
-    .range([ height, 0 ]);
+    .domain([0, 9])
+    .range([ height, 0]);
   svg.append("g")
     .call(d3.axisLeft(y));
 
-  // paleta de cores do subgrupo
+  // cores para cada tipo
   var color = d3.scaleOrdinal()
-    .domain(subgroups)
-    .range(['#e41a1c','#377eb8','#4daf4a'])
+    .domain(["setosa", "versicolor", "virginica" ])
+    .range([ "#440154ff", "#21908dff", "#fde725ff"])
 
-  //pilha de grupo e subgrupo
-  var stackedData = d3.stack()
-    .keys(subgroups)
-    (data)
+  // configuracao ponto
+  svg.append('g')
+    .selectAll("dot")
+    .data(data)
+    .enter()
+    .append("circle")
+      .attr("cx", function (d) { return x(d.Sepal_Length); } )
+      .attr("cy", function (d) { return y(d.Petal_Length); } )
+      .attr("r", 5)
+      .style("fill", function (d) { return color(d.Species) } )
 
-  // mostrar a barra
-  svg.append("g")
-    .selectAll("g")
-    // colocar as pilhas nos grupos e cores
-    .data(stackedData)
-    .enter().append("g")
-      .attr("fill", function(d) { return color(d.key); })
-      .selectAll("rect")
-      // segunda cor e formato
-      .data(function(d) { return d; })
-      .enter().append("rect")
-        .attr("x", function(d) { return x(d.data.group); })
-        .attr("y", function(d) { return y(d[1]); })
-        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-        .attr("width",x.bandwidth())
 })
 
 </script>
