@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 
-
+<title>Modelo de Dispersão</title>
+<body>
+<h2>Uso da base de dados iris com dispersão<h2>
 <script src="https://d3js.org/d3.v4.js"></script>
 
 
@@ -26,7 +28,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 
-d3.csv("covid.csv", function(data) {
+d3.csv("iris.csv", function(data) {
 
   // lista de subgrupos
   var subgroups = data.columns.slice(1)
