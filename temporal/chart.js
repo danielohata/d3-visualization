@@ -1,4 +1,3 @@
-
 var svg = d3.select("svg"),
     margin = {top: 20, right: 80, bottom: 30, left: 50},
     width = svg.attr("width") - margin.left - margin.right,
@@ -50,7 +49,7 @@ d3.csv("software-test-x-unit-test.csv", type, function(error, data) {
       .attr("y", 6)
       .attr("dy", "0.71em")
       .attr("fill", "#000")
-      .text("Artigos");
+      .text("Teste de software");
 
   var city = g.selectAll(".city")
     .data(cities)
