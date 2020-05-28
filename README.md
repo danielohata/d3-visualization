@@ -1,7 +1,7 @@
 # d3-visualization
 [tarefa 2 - histograma](https://danielohata.github.io/d3-visualization/histogram/)
 
-[tarefa 3 - barras empilhadas](https://danielohata.github.io/d3-visualization/dispersao/)
+[tarefa 3 - barras empilhadas](https://danielohata.github.io/d3-visualization/barras/)
 
 [tarefa 4 - boxplot](https://danielohata.github.io/d3-visualization/boxplot/) 
 
