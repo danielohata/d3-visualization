@@ -10,3 +10,4 @@
 
 
 [hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
+
