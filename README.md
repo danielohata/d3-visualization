@@ -1,5 +1,6 @@
 # d3-visualization
 #TAREFAS
+
 [tarefa 2 - histograma - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa02-histograma/)
 
 [tarefa 3 - barras empilhadas - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa03-barras-empilhadas/)
