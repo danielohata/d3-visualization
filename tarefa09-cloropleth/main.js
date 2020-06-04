@@ -39,8 +39,8 @@ function build(type) {
         .defer(d3.json, 'brazil.json')
 
     // Data from: http://dados.gov.br/dataset/transferencias-constitucionais-para-estados
-        .defer(d3.csv, 'transmen201802.csv', dataLoaded)
         //.defer(d3.csv 'TransferenciaMensalEstados202002.csv',dataLoaded)
+        .defer(d3.csv, 'transmen201802.csv', dataLoaded)
         .await(ready);
 
     function dataLoaded(d) {
