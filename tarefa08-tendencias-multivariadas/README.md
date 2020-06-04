@@ -1,19 +1,5 @@
 # d3-visualization
-#TAREFAS
-
-[tarefa 2 - histograma - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa02-histograma/)
-
-[tarefa 3 - barras empilhadas - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa03-barras-empilhadas/)
-
-[tarefa 4 - boxplot - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa04-boxplot/) 
-
-[tarefa 5 - dispersão - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa05-dispersao)
-
-[tarefa 6 - radar - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa06-radar/)
-
-[tarefa 8 - Tendências multivariadas - Aula 2 Visualização temporal](https://danielohata.github.io/d3-visualization/tarefa08-tendencias-multivariadas/)
-
-
-
-[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
-
+O gráfico apresenta três modelos de tipos de classificação que são:
+Keirsey (KEIRSEY, David. Please understand me II: Temperament, character, intelligence. Prometheus Nemesis Book Company, 1998.)
+Myers Briggs (MYERS, Isabel Briggs. The Myers-Briggs Type Indicator: Manual (1962). 1962.)
+Index Learning Style (FELDER, Richard M.; SPURLIN, Joni. Applications, reliability and validity of the index of learning styles. International journal of engineering education, v. 21, n. 1, p. 103-112, 2005.)

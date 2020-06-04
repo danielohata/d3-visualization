@@ -15,8 +15,8 @@ const path = d3.geoPath()
     .projection(projection);
 
 const color = d3.scaleThreshold()
-    .domain([0, 1, 10, 100, 1000, 10000, 100000, 1000000])
-    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+    .domain([0, 100000, 1000000, 10000000, 100000000, 1000000000])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1","#54278f"]);
 
 const x = d3.scaleLinear()
     .domain([1, 10]);
