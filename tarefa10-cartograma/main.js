@@ -102,7 +102,7 @@ d3.csv('data/MCMV.csv', function (data) {
              });
         });
 
-        d3.select('#click_to_run').text('Show cartogram');
+        d3.select('#click_to_run').text('Demonstração do cartograma');
     });
 });
 
@@ -123,7 +123,7 @@ function formatWithComma(nStr) {
 }
 
 function do_update() {
-    d3.select('#click_to_run').text('thinking...');
+    d3.select('#click_to_run').text('processando...');
 
     setTimeout(function () {
         carto.value(function (d) {
@@ -151,7 +151,7 @@ function do_update() {
         munics.transition()
             .duration(750)
             .each('end', function () {
-                d3.select('#click_to_run').text('done')
+                d3.select('#click_to_run').text('Dados reproduzidos')
             })
             .attr('d', carto.path);
     }, 10);
