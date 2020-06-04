@@ -19,7 +19,7 @@ const color = d3.scaleThreshold()
     .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1","#54278f"]);
 
 const x = d3.scaleLinear()
-    .domain([1, 10]);
+    .domain([0, 100000, 1000000, 10000000, 100000000, 1000000000]);
 
 function load() {
     const select = document.querySelector('select');
