@@ -1,19 +1,6 @@
 # d3-visualization
-#TAREFAS
 
-[tarefa 2 - histograma - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa02-histograma/)
-
-[tarefa 3 - barras empilhadas - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa03-barras-empilhadas/)
-
-[tarefa 4 - boxplot - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa04-boxplot/) 
-
-[tarefa 5 - dispersão - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa05-dispersao)
-
-[tarefa 6 - radar - Aula 1 27/02/20](https://danielohata.github.io/d3-visualization/tarefa06-radar/)
-
-[tarefa 8 - Tendências multivariadas - Aula 2 Visualização temporal](https://danielohata.github.io/d3-visualization/tarefa08-tendencias-multivariadas/)
-
-
-
-[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
-
+Base de dados (http://www.dados.gov.br/dataset/32553ebf-7a6f-40c0-bec9-5435850bcabf)
+Informações sobre os domínios Gov.br registrados no Registro.br e autorizados pelo Ministério do Planejamento.
+Contém todos os domínios autorizados e seus respectivos responsáveis.
+Estão disponíveis as URL, o CNPJ e nome do Órgão, localidade, assim como as datas de registro e da última atualização dos dados de registro do domínio.
