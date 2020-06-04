@@ -33,7 +33,8 @@ var carto = d3.cartogram()
     });
 
 // http://dados.gov.br/dataset/mpog_mcmv
-d3.csv('data/MCMV_03_2012.csv', function (data) {
+//d3.csv('data/MCMV_03_2012.csv', function (data) {
+d3.csv('data/MCMV.csv', function (data) {
     data.forEach(function (d) {
         vote_data.set(d.UF, [d.Valor]);
     })
