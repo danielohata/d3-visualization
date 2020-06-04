@@ -33,13 +33,13 @@
 
 [tarefa 17](https://danielohata.github.io/d3-visualization/tarefa17-conexp/)
 
-[hand-on1](https://danielohata.github.io/d3-visualization/)
+[hand-on1](https://danielohata.github.io/d3-visualization/hands-on1/)
 
-[hand-on2](https://danielohata.github.io/d3-visualization/)
+[hand-on2](https://danielohata.github.io/d3-visualization/hands-on2/)
 
-[hand-on3](https://danielohata.github.io/d3-visualization/)
+[hand-on3](https://danielohata.github.io/d3-visualization/hands-on3/)
 
 [hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
 
-[hand-on-cmap](https://danielohata.github.io/d3-visualization/)
+[hand-on-cmap](https://danielohata.github.io/d3-visualization/hands-on-cmap/)
 
