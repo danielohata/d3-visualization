@@ -29,6 +29,8 @@
 
 [tarefa 15](https://danielohata.github.io/d3-visualization/tarefa15/)
 
+[tarefa 15](https://danielohata.github.io/d3-visualization/tarefa15/grafo-de-forca/)
+
 [tarefa 16](https://danielohata.github.io/d3-visualization/tarefa16-cmapcloud-cmaptools/)
 
 [tarefa 17](https://danielohata.github.io/d3-visualization/tarefa17-conexp/)
