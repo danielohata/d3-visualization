@@ -43,7 +43,7 @@ d3.json("flare.json", function(data) {
 
   // prepare a color scale
   var color = d3.scaleOrdinal()
-    .domain(["boss1", "boss2", "boss3"])
+    .domain(["Estados Unidos", "Grã-Bretanha", "China"])
     .range([ "#402D54", "#D18975", "#8FD175"])
 
   // And a opacity scale
@@ -106,7 +106,7 @@ d3.json("flare.json", function(data) {
     .append("text")
       .attr("x", 0)
       .attr("y", 14)    // +20 to adjust position (lower)
-      .text("Three group leaders and 14 employees")
+      .text("Os três países com melhor posição no quadro de medalhas")
       .attr("font-size", "19px")
       .attr("fill",  "grey" )
 
