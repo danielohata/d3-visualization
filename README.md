@@ -39,7 +39,7 @@
 
 [hand-on3](https://danielohata.github.io/d3-visualization/hands-on3/)
 
-[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/word-cloud-brazil/)
+[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/hands-on-word-cloud/)
 
 [hand-on-cmap](https://danielohata.github.io/d3-visualization/hands-on-cmap/)
 

@@ -2,11 +2,11 @@
     "name": "Software",
     "children": [
         {
-            "name": "infrastructure",
+            "name": "Técnicas de Teste",
             "size": 2123
         },
         {
-            "name": "planning",
+            "name": "Tipos de Teste",
             "size" : 4213
         },
         {
@@ -17,12 +17,15 @@
             ]
         },
         {
-            "name": "tests",
+            "name": "Níveis de Teste",
             "children": [
-                {"name": "White box", "size": 8138},
-                {"name": "Black box", "size": 8824},
-                {"name": "Unit", "size": 8435},
-                {"name": "User acceptance", "size": 8435}
+                {"name": "Teste Unitário", "size": 8138},
+                {"name": "Teste de Integração", "size": 8824},
+                {"name": "Teste Sistema", "size": 8435},
+                {"name": "Teste Aceitação", "size": 8435}
+                {"name": "Teste Alfa", "size": 8435}
+                {"name": "Teste Beta", "size": 8435}
+                {"name": "Teste Regressão", "size": 8435}
             ]
         }
     ]
