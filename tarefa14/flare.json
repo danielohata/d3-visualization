@@ -2,30 +2,27 @@
     "name": "Software",
     "children": [
         {
-            "name": "Técnicas de Teste",
+            "name": "Infraestrutura",
             "size": 2123
         },
         {
-            "name": "Tipos de Teste",
+            "name": "Planejamento",
             "size" : 4213
         },
         {
-            "name": "development",
+            "name": "Desenvolvimento",
             "children": [
-                {"name": "Technology", "size": 4616},
-                {"name": "Programmer", "size": 4027}
+                {"name": "Tecnologia", "size": 4616},
+                {"name": "Programação", "size": 4027}
             ]
         },
         {
-            "name": "Níveis de Teste",
+            "name": "Modelos de teste",
             "children": [
-                {"name": "Teste Unitário", "size": 8138},
-                {"name": "Teste de Integração", "size": 8824},
-                {"name": "Teste Sistema", "size": 8435},
-                {"name": "Teste Aceitação", "size": 8435}
-                {"name": "Teste Alfa", "size": 8435}
-                {"name": "Teste Beta", "size": 8435}
-                {"name": "Teste Regressão", "size": 8435}
+                {"name": "Caixa Branca", "size": 8138},
+                {"name": "Caixa Preta", "size": 8824},
+                {"name": "Unitário", "size": 8435},
+                {"name": "Aceitação", "size": 8435}
             ]
         }
     ]
