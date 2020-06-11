@@ -21,7 +21,15 @@
 
 [tarefa 11 - Visualização espaço-temporal](https://danielohata.github.io/d3-visualization/tarefa11-visualizacao-espaco-temporal/)
 
+[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/hands-on-word-cloud/)
+
 [tarefa 12](https://danielohata.github.io/d3-visualization/tarefa12/)
+
+[hand-on1](https://danielohata.github.io/d3-visualization/hands-on1/)
+
+[hand-on2](https://danielohata.github.io/d3-visualization/hands-on2/)
+
+[hand-on3](https://danielohata.github.io/d3-visualization/hands-on3/)
 
 [tarefa 13](https://danielohata.github.io/d3-visualization/tarefa13/)
 
@@ -33,17 +41,12 @@
 
 [tarefa 15 - Grafo de força](https://danielohata.github.io/d3-visualization/tarefa15/grafo-de-forca/)
 
-[tarefa 16](https://danielohata.github.io/d3-visualization/tarefa16-cmapcloud-cmaptools/)
-
-[tarefa 17](https://danielohata.github.io/d3-visualization/tarefa17-conexp/)
-
-[hand-on1](https://danielohata.github.io/d3-visualization/hands-on1/)
-
-[hand-on2](https://danielohata.github.io/d3-visualization/hands-on2/)
-
-[hand-on3](https://danielohata.github.io/d3-visualization/hands-on3/)
-
-[hands-on nuvem de palavras](https://danielohata.github.io/d3-visualization/hands-on-word-cloud/)
-
 [hand-on-cmap](https://danielohata.github.io/d3-visualization/hands-on-cmap/)
 
+[tarefa 16 - CMapCloud/CMapTools](https://danielohata.github.io/d3-visualization/tarefa16-cmapcloud-cmaptools/)
+
+[tarefa 17 - Conexp](https://danielohata.github.io/d3-visualization/tarefa17/)
+
+[tarefa 18 - Redes de Petri](https://danielohata.github.io/d3-visualization/tarefa18/)
+
+[tarefa 19 - Redes Bayesianas](https://danielohata.github.io/d3-visualization/tarefa19/)
