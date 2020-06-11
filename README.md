@@ -27,9 +27,11 @@
 
 [tarefa 14](https://danielohata.github.io/d3-visualization/tarefa14/)
 
-[tarefa 15](https://danielohata.github.io/d3-visualization/tarefa15/)
+[tarefa 15 - Chorm](https://danielohata.github.io/d3-visualization/tarefa15/)
 
-[tarefa 15](https://danielohata.github.io/d3-visualization/tarefa15/grafo-de-forca/)
+[tarefa 15 - Grafo Prajek](https://danielohata.github.io/d3-visualization/tarefa15/)
+
+[tarefa 15 - Grafo de força](https://danielohata.github.io/d3-visualization/tarefa15/grafo-de-forca/)
 
 [tarefa 16](https://danielohata.github.io/d3-visualization/tarefa16-cmapcloud-cmaptools/)
 
