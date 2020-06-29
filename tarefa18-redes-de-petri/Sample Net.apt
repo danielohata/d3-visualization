@@ -1,0 +1,26 @@
+.name "Sample Net"
+.type PN
+
+.places
+Eu
+Despertador
+Acordado
+Quarto
+Conferir
+SairCasa
+
+.transitions
+Dormindo
+Alarme
+UsarBanheiro
+PrepararMochila
+ColocaMascara
+
+.flows
+Dormindo: {1*Eu} -> {1*Acordado}
+Alarme: {1*Despertador} -> {1*Acordado}
+UsarBanheiro: {1*Acordado} -> {1*Quarto}
+PrepararMochila: {1*Quarto, 1*Conferir} -> {1*Conferir}
+ColocaMascara: {1*Conferir} -> {1*SairCasa}
+
+.initial_marking {}
