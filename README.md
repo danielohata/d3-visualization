@@ -45,10 +45,10 @@
 
 [tarefa 16 - CMapCloud/CMapTools](https://danielohata.github.io/d3-visualization/tarefa16-cmapcloud-cmaptools/)
 
-[tarefa 17 - Conexp](https://danielohata.github.io/d3-visualization/tarefa17/)
+[tarefa 17 - Conexp](https://danielohata.github.io/d3-visualization/tarefa17-conexp/)
 
-[tarefa 18 - Redes de Petri](https://danielohata.github.io/d3-visualization/tarefa18/)
+[tarefa 18 - Redes de Petri](https://danielohata.github.io/d3-visualization/tarefa18-redes-de-petri/)
 
-[tarefa 19 - Redes Bayesianas](https://danielohata.github.io/d3-visualization/tarefa19/)
+[tarefa 19 - Redes Bayesianas](https://danielohata.github.io/d3-visualization/tarefa19-redes-bayesianas/)
 
 [tarefa - Ontologia](https://danielohata.github.io/d3-visualization/tarefaOntologia/)
