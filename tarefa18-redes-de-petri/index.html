@@ -1,0 +1,34 @@
+<html>
+<body>
+.name "Sample Net"
+.type PN
+
+.places
+Eu
+Despertador
+Acordado
+Quarto
+SairCasa
+VerificaItens
+
+.transitions
+Dormindo
+Alarme
+UsarBanheiro
+PrepararMochila
+ColocaMascara
+
+.flows
+Dormindo: {1*Eu} -> {1*Acordado}
+Alarme: {1*Despertador} -> {1*Acordado}
+UsarBanheiro: {1*Acordado} -> {1*Quarto}
+PrepararMochila: {1*Quarto} -> {1*VerificaItens}
+ColocaMascara: {1*VerificaItens} -> {1*SairCasa}
+
+.initial_marking {1*Eu, 1*Despertador, 1*Acordado, 1*Quarto}
+
+<a href="https://danielohata.github.io/d3-visualization/tarefa18/Sample Net.apt">Clique para download do  arquivo APTO</a>
+	
+</body>
+</html>
+
