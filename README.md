@@ -37,7 +37,7 @@
 
 [tarefa 15 - Chorm](https://danielohata.github.io/d3-visualization/tarefa15/)
 
-[tarefa 15 - Grafo Prajek](https://danielohata.github.io/d3-visualization/tarefa15/)
+[tarefa 15 - Grafo](https://danielohata.github.io/d3-visualization/tarefa15/node-link/)
 
 [tarefa 15 - Grafo de força](https://danielohata.github.io/d3-visualization/tarefa15/grafo-de-forca/)
 
@@ -50,3 +50,5 @@
 [tarefa 18 - Redes de Petri](https://danielohata.github.io/d3-visualization/tarefa18/)
 
 [tarefa 19 - Redes Bayesianas](https://danielohata.github.io/d3-visualization/tarefa19/)
+
+[tarefa - Ontologia](https://danielohata.github.io/d3-visualization/tarefaOntologia/)
