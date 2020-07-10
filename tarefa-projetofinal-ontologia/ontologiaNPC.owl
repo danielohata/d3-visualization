@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/proservice_00/ontologies/2020/6/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/proservice_00/ontologies/2020/6/untitled-ontology-6">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Arma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ataque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colaborativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comportamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cooperativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corpo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experiência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Físico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inimigo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proteção"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relacionamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Velocidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vida"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temRelacionamento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPontosDefesa"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPontosExperiencia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPontosVida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temPontosdeAtaque"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Arma"/>
+        <Class IRI="#Físico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataque"/>
+        <Class IRI="#Habilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colaborativo"/>
+        <Class IRI="#Comportamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comportamento"/>
+        <Class IRI="#Personagem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cooperativo"/>
+        <Class IRI="#Comportamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corpo"/>
+        <Class IRI="#Físico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cura"/>
+        <Class IRI="#Habilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experiência"/>
+        <Class IRI="#Habilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Físico"/>
+        <Class IRI="#Personagem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habilidade"/>
+        <Class IRI="#Personagem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inimigo"/>
+        <Class IRI="#Comportamento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poder"/>
+        <Class IRI="#Habilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proteção"/>
+        <Class IRI="#Físico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relacionamento"/>
+        <Class IRI="#Habilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Velocidade"/>
+        <Class IRI="#Habilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vida"/>
+        <Class IRI="#Físico"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Ataque"/>
+        <Class IRI="#Experiência"/>
+        <Class IRI="#Poder"/>
+        <Class IRI="#Relacionamento"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temPontosDefesa"/>
+        <Class IRI="#Personagem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temPontosdeAtaque"/>
+        <Class IRI="#Personagem"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Habilidade</IRI>
+        <IRI>#Jogável_(Jogador)</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
