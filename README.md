@@ -51,4 +51,4 @@
 
 [tarefa 19 - Redes Bayesianas (incompleto)](https://danielohata.github.io/d3-visualization/tarefa19-redes-bayesianas/)
 
-[tarefa - Ontologia](https://danielohata.github.io/d3-visualization/tarefaOntologia/)
+[tarefa - Ontologia(incompleto)](https://danielohata.github.io/d3-visualization/tarefa-projetofinal-ontologia/)
